@@ -1,0 +1,22 @@
+{
+  "name": "gulp-seajs-css",
+  "description": "css样式文件转seajs module",
+  "version": "1.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/homkai/gulp-seajs-css.git"
+  },
+  "author": {
+    "name": "Homkai Wang"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "gulp-util": "^3.0.5",
+    "readable-stream": "^2.0.0",
+    "vinyl-bufferstream": "^1.0.1",
+    "clean-css": "^3.3.3"
+  }
+}
