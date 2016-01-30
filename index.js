@@ -64,8 +64,7 @@ module.exports = function (options){
           text = output.join('\r\n');
         }
 
-        var moduleId = file.path.replace(file.base, '').replace(Path.extname(file.path), '').replace(Path.sep, '/' + (options.prefix || ''));
-        var tpl = "define('" + moduleId + "', function(require, exports, module){\r\n" +
+        var tpl = "define(function(require, exports, module){\r\n" +
             REP +
             "\r\n});";
         text = tpl.replace(REP, text);

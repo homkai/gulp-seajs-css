@@ -31,7 +31,7 @@ index/multi.css
     
 Output：
 
-    define('index/css_multi', function(require, exports, module){
+    define(function(require, exports, module){
       exports.base = '<style type="text/css">body{background:#eee;color:#f02651;content:\'\'}</style>';
       exports.head = '<style type="text/css">.page-head{font-size:200%}</style>';
     });
@@ -52,6 +52,6 @@ index/main.css
     
 Output：
 
-    define('index/css_multi', function(require, exports, module){
+    define(function(require, exports, module){
       module.exports = '<style type="text/css">body{background:#eee;color:#f02651;content:\'\'}.page-head{font-size:200%}</style>';
     });

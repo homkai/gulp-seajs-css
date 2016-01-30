@@ -1,7 +1,7 @@
 {
   "name": "gulp-seajs-css",
   "description": "css样式文件转seajs module",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/homkai/gulp-seajs-css.git"
